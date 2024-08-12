@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Inverter</title>
+    <style>
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        canvas {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Image Inverter</h1>
+    <div class="container">
+        <canvas id="originalCanvas"></canvas>
+        <button id="invertButton">Invert Colors</button>
+        <canvas id="invertedCanvas"></canvas>
+    </div>
+    <input type="file" id="imageInput" accept="image/*" style="margin-top: 20px;">
+
+    <script src="script01c.js"></script>
+</body>
+
+</html>
